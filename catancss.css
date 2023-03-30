@@ -1,13 +1,15 @@
 body {
-  background-color: lightblue;
+  background-color: #7A2021;
 }
 
 h1 {
-  color: white;
+  color: yellow;
   text-align: center;
+  font-family: papyrus;
 }
 
 p {
-  font-family: verdana;
+  color: yellow;
+  font-family: papyrus;
   font-size: 20px;
 }
