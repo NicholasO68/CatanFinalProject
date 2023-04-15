@@ -42,4 +42,11 @@ p {
     width: 0;
     border-top: 57.74px solid #ccc; /* This value is approximately 0.866 * height */
   }
+
+  .center {
+   display: block;
+   margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
   
