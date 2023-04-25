@@ -15,38 +15,19 @@ p {
 }
 
 
-.hexagon {
+div {
+    height: 100px;
     width: 100px;
-    height: 115.47px; /* This value is approximately 1.732 * width */
-    position: relative;
-    background-color: #ccc;
-    margin: 20px;
-  }
-  
-  .hexagon:before,
-  .hexagon:after {
-    content: "";
-    position: absolute;
-    width: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-  }
-  
-  .hexagon:before {
-    bottom: 100%;
-    border-bottom: 57.74px solid #ccc; /* This value is approximately 0.866 * height */
-  }
-  
-  .hexagon:after {
-    top: 100%;
-    width: 0;
-    border-top: 57.74px solid #ccc; /* This value is approximately 0.866 * height */
-  }
+}
 
-  .center {
+.hexagon {
+    background-color: #ccc;
+    clip-path: polygon(5% 25%, 50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%);
+}
+
+.center {
    display: block;
    margin-left: auto;
     margin-right: auto;
     width: 50%;
   }
-  
