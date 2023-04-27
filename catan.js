@@ -1,27 +1,3 @@
-var playerOne {
-	name = "Player 1"
-	score = null
-	cards = ""
-}
-
-var playerTwo {
-	name = "Player 2"
-	score = null
-	cards = ""
-}
-
-var playerThree {
-	name = "Player 3"
-	score = null
-	cards = ""
-}
-
-var playerFour {
-	name = "Player 4"
-	score = null
-	cards = ""
-}
-
 function diceRoll(){
 	return Math.ceil(Math.random()*6)
 }
